@@ -6,7 +6,7 @@ tenant_id = "8f6f4cc6-288d-4e56-8fb1-d52bddc03fc9"
 
 # Resource Group/Location
 location = "East US"
-resource_group_name = "tiencn-udacity-azdevops-p3"
+resource_group_name = "AzureDevops"
 application_type = "tiencn"
 
 # Network
@@ -17,3 +17,6 @@ address_prefix_test = "10.5.1.0/24"
 # Virtual machine
 admin_username = "tiencn1"
 admin_password = "MyStr00ngP@$$w0rD"
+
+# Image
+image_name = "vm_ubuntu_1804"
