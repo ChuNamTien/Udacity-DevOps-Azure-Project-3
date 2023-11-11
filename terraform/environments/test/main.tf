@@ -7,7 +7,7 @@ provider "azurerm" {
 }
 terraform {
   backend "azurerm" {
-    storage_account_name = "AzureDevops"
+    storage_account_name = "storagetienc2023"
     container_name       = "storage"
     key                  = "test.terraform.storage"
     access_key           = "YeV8zTPEXkcHEAq4HmEhTkcaQxlnPDG4/6puo9yki1AVNNnyMHu+jm/B7cJZuil4vwFgrEhBhzSx+AStwZC4cQ=="
