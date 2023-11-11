@@ -1,9 +1,8 @@
 **/*.tfstate
-**/*.json
 **/*.exe
 # Local .terraform directories
 **/.terraform/*
-
+.terraform.lock.hcl
 # .tfstate files
 *.tfstate
 *.tfstate.*
@@ -23,3 +22,6 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+
+# env file
+.env
