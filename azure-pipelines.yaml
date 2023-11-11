@@ -5,6 +5,7 @@ name: Azure Pipelines
 # https://aka.ms/yaml
 trigger:
 - main
+pool: myAgentPool
 
 variables:
   python.version: '3.7.6'
@@ -145,7 +146,8 @@ stages:
   #--------------------------------------------#  
   # Deploy FakeRestAPI Web App
   - deployment: FakeRestAPI
-    pool:'myAgentPool'
+    pool:
+      name : 'myAgentPool' 
     environment: 'TEST'
     strategy:
       runOnce:
