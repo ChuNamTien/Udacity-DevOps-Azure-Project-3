@@ -41,7 +41,7 @@ stages:
         command: 'init'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
         backendServiceArm: '$(azureServiceConnectionId)'
-        backendAzureRmResourceGroupName: 'project3'
+        backendAzureRmResourceGroupName: 'AzureDevops'
         backendAzureRmStorageAccountName: 'AzureDevops'
         backendAzureRmContainerName: 'storage'
         backendAzureRmKey: 'test.terraform.storage'
