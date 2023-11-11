@@ -251,7 +251,7 @@ stages:
           rm -rf tests
           echo '-------> Cleanned old data'
           
-          export PATH=/home/hiepnd/jmeter/bin:$PATH
+          export PATH=/home/tiencn/jmeter/bin:$PATH
  
           echo '-------> path with jmeter:' $PATH
           
